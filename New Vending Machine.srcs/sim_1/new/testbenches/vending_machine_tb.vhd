@@ -35,14 +35,14 @@ begin
             vend_out => vend_out
         ); 
     
-    clk_process : process(clk) begin 
+    clk_process : process begin 
         clk <= '0'; 
         wait for 10 ns; 
         clk <= '1'; 
         wait for 10 ns; 
     end process; 
     
-    process(clk) begin 
+    process begin 
         rst <= '1'; 
         wait for 20 ns; 
         rst <= '0'; 
