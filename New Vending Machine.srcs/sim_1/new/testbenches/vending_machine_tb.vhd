@@ -71,6 +71,7 @@ begin
     
         wait for 100 ns;
 
-        assert false report "Passed the TB!" severity note; 
+        report "Passed the TB!"; 
+        std.env.finish; 
     end process; 
 end behavioral; 
