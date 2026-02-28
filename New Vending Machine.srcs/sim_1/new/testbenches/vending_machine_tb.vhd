@@ -2,11 +2,10 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL; 
 use IEEE.NUMERIC_STD.ALL; 
 
-
 entity vending_machine_tb is 
 end vending_machine_tb; 
 
-architecture behaviorial of vending_machine_tb is
+architecture behavioral of vending_machine_tb is
     component vending_machine is
         port( 
             vend : in std_logic_vector(7 downto 0); 
@@ -74,4 +73,4 @@ begin
 
         assert false report "Passed the TB!" severity note; 
     end process; 
-end behaviorial; 
+end behavioral; 
