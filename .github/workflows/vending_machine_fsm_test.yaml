@@ -15,6 +15,7 @@ jobs:
 
       - name: Compile the VHDL code
         run: |
+          cd "New Vending Machine.srcs"
           ghdl -a --std=08 sources_1/new/vending_machine.vhd
           ghdl -a --std=08 sim_1/new/testbenches/vending_machine_tb.vhd
           
