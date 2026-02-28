@@ -15,3 +15,6 @@ A robust Finite State Machine (FSM) implementation of a vending machine controll
 * **Input Pulsing & Debouncing:** All buttons and switches are debounced to ensure proper calculation
 * **7-Segment Display:** Displays machine state and balance, all changes are displayed
 
+
+## Finite State Machine: 
+![Vending Machine State Diagram](fsm_diagram.png)
