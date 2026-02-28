@@ -27,13 +27,13 @@ graph TD
     S3["S3: Insufficient Funds (Error)"]
     S4["S4: Dispense Item"]
 
-    S0 -->|Automatic| S1
-    S1 -->|Quarter / Dollar Added| S1
-    S1 -->|Refund Button Pressed| S2
-    S1 -->|Item Selected & Credit >= Price| S4
-    S1 -->|Item Selected & Credit < Price| S3
-    
-    S2 -->|Timer Complete (ctr = x 3FFFFFF )| S0
-    S3 -->|Timer Complete (ctr = x 3FFFFFF )| S1
-    S4 -->|Timer Complete (ctr = x 3FFFFFF )| S1
+    S0 -->|"Automatic"| S1
+    S1 -->|"Quarter / Dollar Added"| S1
+    S1 -->|"Refund Button Pressed"| S2
+    S1 -->|"Item Selected (Sufficient Credit)"| S4
+    S1 -->|"Item Selected (Insufficient Credit)"| S3
+
+    S2 -->|"Timer Complete (ctr = x3FFFFFF)"| S0
+    S3 -->|"Timer Complete (ctr = x3FFFFFF)"| S1
+    S4 -->|"Timer Complete (ctr = x3FFFFFF)"| S1
 
