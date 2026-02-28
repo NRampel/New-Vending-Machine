@@ -17,4 +17,5 @@ A robust Finite State Machine (FSM) implementation of a vending machine controll
 
 
 ## Finite State Machine: 
-![Vending Machine State Diagram](fsm_vm.png_0.svg)
+<img width="722" height="93" alt="image" src="https://github.com/user-attachments/assets/02091eb4-95c2-455b-ab08-7077d0459b38" />
+
