@@ -1,4 +1,4 @@
-name: VHDL Automated Test
+name: Vending Machine FSM Test
 
 on: [push, pull_request]
 
